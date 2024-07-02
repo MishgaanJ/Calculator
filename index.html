@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/calculator logo.PNG" type="image/x-icon">
+</head>
+<body>
+    <main>
+    <div id="frame">
+        <div id="heading">
+            <h1>JOINUS</h1> <H5>JS-82MS-5</H5>
+        </div>
+        <p>CALCULATOR</p>
+        <aside id="innerframe">
+
+        </aside>
+        <br>
+
+        <div class="down">
+            <button id="off">OFF</button>
+            <button id="on">ON</button>
+        </div>
+
+        <div class="numbers">
+            <button id="7" onclick="clicked(this.id)">7</button>
+            <button id="8" onclick="clicked(this.id)">8</button>
+            <button id="9" onclick="clicked(this.id)">9</button>
+            <button id="delete" onclick="Delete()">DEL</button>
+            <button id="clear">AC</button>
+            
+        </div>
+
+        <div class="number">
+            <button id="4" onclick="clicked(this.id)">4</button>
+            <button id="5" onclick="clicked(this.id)">5</button>
+            <button id="6" onclick="clicked(this.id)">6</button>
+            <button id="*" onclick="clicked(this.id)">*</button>
+            <button id="/" onclick="clicked(this.id)">/</button>
+            
+        </div>
+        <div class="number">
+            <button id="1" onclick="clicked(this.id)">1</button>
+            <button id="2" onclick="clicked(this.id)">2</button>
+            <button id="3" onclick="clicked(this.id)">3</button>
+            <button id="+" onclick="clicked(this.id)">+</button>
+            <button id="-" onclick="clicked(this.id)">-</button>
+            
+        </div>
+        <div class="number">
+            <button id="0" onclick="clicked(this.id)">0</button>
+            <button id="." onclick="clicked(this.id)">.</button>
+            <button id="exp">EXP</button>
+            <button id="ans">Ans</button>
+            <button id="=">=</button>
+            
+        </div>
+<br><br>
+    </div>
+    
+</main>
+    <script src="logic.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+body {
+  background-color: #800000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+main #frame {
+  box-shadow: 10px 10px 10px rgba(255, 100, 100, 0.253);
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  min-width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #frame #heading {
+  color: orange;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+main #frame #heading h1 {
+  margin: 0;
+}
+main #frame #heading h5 {
+  margin: 0;
+}
+main #frame p {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+main #frame #innerframe {
+  background-color: olive;
+  padding: 10px;
+  width: 85%;
+  max-width: 315px;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
+}
+main #frame .down {
+  border: 1px solid black;
+  padding: 10px;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+main #frame .down button {
+  height: 20px;
+  background-color: black;
+  color: white;
+}
+main #frame .down button:hover {
+  cursor: pointer;
+  transform: translateY(2px);
+}
+main #frame #down1 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+main #frame #down1 button {
+  height: 20px;
+  background-color: black;
+  color: white;
+}
+main #frame #down1 button:hover {
+  cursor: pointer;
+  transform: translateY(2px);
+}
+main #frame .numbers {
+  border: 1px solid black;
+  padding: 10px;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+main #frame .numbers :last-child {
+  background-color: red;
+}
+main #frame .numbers :nth-last-child(2) {
+  background-color: red;
+}
+main #frame .numbers button {
+  height: 25px;
+  background-color: gray;
+  color: white;
+}
+main #frame .numbers button:hover {
+  cursor: pointer;
+  transform: translateY(2px);
+}
+main #frame .number {
+  border: 1px solid black;
+  padding: 10px;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+main #frame .number button {
+  height: 25px;
+  background-color: gray;
+  color: white;
+  font-weight: 300;
+}
+main #frame .number button:hover {
+  cursor: pointer;
+  transform: translateY(2px);
+  filter: brightness(90%);
+}/*# sourceMappingURL=styles.css.map */
